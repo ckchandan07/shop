@@ -1,0 +1,138 @@
+@media (max-width:960px) {
+    .nav-bar-start {
+        flex-direction: column;
+        align-items: start;
+        position: relative;
+    }
+
+    .nav-media {
+        display: none;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: start;
+        margin-top: 0;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .nav-bar a {
+        margin-top: 10px;
+    }
+
+    .m-burger {
+        display: block;
+        position: absolute;
+        right: 5%;
+        margin-top: 15px;
+        /* top: 0; */
+        border: 2px solid red;
+        padding: 10px 10px 8px;
+        border-radius: 5px;
+        background: black;
+    }
+
+    .m-burger i {
+        font-size: 20px;
+        color: white;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 85px;
+        right: -140px;
+        left: 148px;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+
+    .dropdown a ul {
+        margin-top: 3px;
+    }
+
+}
+
+@media (max-width:990px) {
+
+    .xyz2 {
+        display: block;
+    }
+
+    .xyz1 {
+        display: none;
+    }
+
+    .video-start {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .video-back {
+        flex-direction: column;
+    }
+
+    .video-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .video-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:900px) {
+    .mobile-about-start {
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .mobile-abt-img {
+        width: 100%;
+    }
+
+    .abt-text {
+        width: 90%;
+    }
+
+    .learn-btn {
+        display: none;
+    }
+
+    .abst-text {
+        top: 6vw;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+
+@media (max-width:710px) {
+    .contact-start {
+        flex-direction: column;
+    }
+
+    .main-contact {
+        width: 100%;
+    }
+
+    .map-contact {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width:610px) {
+    .abst-text h3 {
+        font-size: 30px;
+    }
+
+    .abst-text p {
+        font-size: 15px;
+    }
+}
