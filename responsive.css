@@ -14,6 +14,7 @@
         align-items: start;
         transition: 0.5s;
         display: none;
+        background: black;
     }
 
     .nav-bar a {
