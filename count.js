@@ -36,3 +36,15 @@ const observer = new IntersectionObserver(
 counters.forEach(counter => {
     observer.observe(counter);
 });
+
+let toggle = document.querySelector('.m-burger');
+let change = document.querySelector(".nav-bar");
+
+toggle.addEventListener("click",()=>{
+   if(change.style.display != "block"){
+      change.style.display = "block"
+   }
+   else{
+    change.style.display = "none"
+   }
+})
